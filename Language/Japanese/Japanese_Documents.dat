@@ -1,0 +1,127 @@
+# クルーメイト
+
+# アドミラル
+"role.admiralU.ability.title" : "固有能力 "絶対的提督権限""
+"role.admiralU.ability.main" : "アドミラルは追放を防ぐクルーメイトです。<br>能力を使用した会議は追放を防ぎます。#NAME"
+"role.admiralU.ability.left" : "一定数のタスクを完了させたとき、アドミラルは役職を全体に公開します。"
+"role.admiralU.ability.noleft" : "" 
+"role.admiralU.ability.admiralSkill" : "<b>提督権限</b><br>追放を防ぎます。能力を発動した会議は追放者が出ても死にません。"
+"role.admiralU.tips" : "自身が追放された時は、能力を使わなくても追放を防ぎます。能力使用回数は減りません。"
+
+# ナイスホーク
+"role.NicehawkU.ability.title" : "固有能力 "千里眼" 
+"role.NicehawkU.ability.main" : "ナイスホークは自身の視界を大幅に広げることが出来るクルーメイトです。<br>能力発動中、自身の視界が広がりマップを大きく見渡せます。<br>#MOVE"
+"role.NicehawkU.ability.left" :  "ホークアイ使用中は移動することが出来ません。"
+"role.NicehawkU.ability.noleft" : ""
+"role.NicehawkU.ability.hawkeye" : "<b>ホークアイ</b><br>自身の視界を広げます。"
+"role.NicehawkU.tips" : "ホークアイ発動中は視野が壁を貫通します。"
+
+# ナイスデコレーター
+"role.nicedecoratorU.ability.title" : "固有能力 "デコレーション""
+"role.nicedecoratorU.ability.main" : "ナイスデコレーターは他のプレイヤーの役職を変えることが出来ます。<br>第三陣営やマッドメイトに対してデコレーションを使用すると、デコレーションの使用回数を無駄にしてしまいます。<br>フィルターで排出されると選んだ役職のみ排出され、クルーメイトがインポスターになること等はありません。"
+"role.NiceDecoratorU.ability.NiceDecorate" : "<b>装飾</b><br>プレイヤーの役職を変更します。"
+"role.nicedecoratorU.tips" : "この役職を入れる際はフィルターを設定していないと、役職を配ることができません。"
+
+# ポラリス
+"role.polarisU.ability.title" : "固有能力 "導きの青い星""
+"role.polarisU.ability.main" : "キル能力・幻視能力を使えます。<br>#REWIND"
+"role.polarisU.ability.left" : "幻視能力は、自身のタスクを消費して発動します。"
+"role.polarisU.ability.noleft" : ""
+"role.polarisU.ability.kill" : "<b>キル</b><br>プレイヤーをキルします。"
+"role.polarisU.ability.medium" : "<b>幻視</b><br>死者の役職を占います。結果は会議で表示され、自身のみ視認可能です。"
+
+
+# スライム
+"role.slimeU.ability.title" : "固有能力 "変幻自在の流動""
+"role.slimeU.ability.main" : "身体を大きくするまたは小さくすることができます。"
+"role.slimeU.ability.jumbo" : "<b>巨大化</b><br>身体が巨大化します。この時、同時に視界も広がります。"
+"role.slimeU.ability.mini" : "<b>縮小</b><br>身体が縮小します。この時、同時に視界も狭まる代わりに移動速度が上昇します。"
+"role.slimeU.tips" : "・どちらか片方の能力を使用している際、もう片方のクールダウンはリセットされ、使用中はクールダウンが進みません。"
+
+
+# インポスター
+
+# ホーク
+"role.hawkU.ability.title" : "固有能力 "千里眼""
+"role.hawkU.ability.main" : "ホークは自身の視界を大幅に広げることが出来るインポスターです。<br>能力発動中、自身の視界が広がりマップを大きく見渡せます。<br>#MOVE"
+"role.hawkU.ability.left" : "ホークアイ使用中は移動することが出来ません。"
+"role.hawkU.ability.noleft" : ""
+"role.hawkU.ability.hawkeye" : "<b>ホークアイ</b><br>自身の視界を広げます。"
+"role.hawkU.tips" : "ホークアイ発動中は視野が壁を貫通します。"
+
+# エクリプス
+"role.eclipseU.ability.title" : "固有能力 "宇宙からの厄災"
+"role.eclipseU.ability.main" : "エクリプスは隕石を降らすことが出来るインポスターです。<br>#MEET#SE"
+"role.eclipseU.meeting.left" : "ミーティング時に、マークの位置はリセットされます。"
+"role.eclipseU.meeting.noleft" : ""
+"role.eclipseU.se.left" : "マーク設置時には周りにSEが聞こえます。"
+"role.eclipseU.se.noleft" : ""
+"role.eclipseU.ability.mark" : "<b>マーク</b><br>隕石の着弾地点をマークをします"
+"role.eclipseU.ability.meteor" : "<b>メテオ</b><br>マークをした場所に、隕石を降らせます。<br>マーク地点がないと使用できません。"
+"role.eclipseU.tips" : "隕石は味方でも巻き込みます"
+
+# イレイサー
+"role.EraserU.ability.title" : "固有能力 "役職消去プロトコル""
+"role.EraserU.ability.main" : "プレイヤーの役職を消去できます。"
+"role.EraserU.ability.erase" : "<b>削除</b><br>プレイヤーの役職を消去し、強制的にクルーメイトにします。<br>変更は次の会議後に反映されます。"
+"role.EraserU.tips" : "・クルーメイト陣営以外の役職を消去した場合、<color=#6AB2BD>シード</color>になります。"
+
+# イビルデコレーター
+"role.evildecoratorU.ability.title" : "固有能力 "デコレーション""
+"role.evildecoratorU.ability.main" : "イビルデコレーターは他のプレイヤーの役職を変えることが出来ます。<br>第三陣営やマッドメイトに対してデコレーションを使用すると、デコレーションの使用回数を無駄にしてしまいます。<br>フィルターで排出されると選んだ役職のみ排出され、クルーメイトがインポスターになること等はありません。"
+"role.evildecoratorU.ability.decoration" : "<b>装飾</b><br>プレイヤーの役職を変更します。"
+"role.evildecoratorU.tips" : "この役職を入れる際はフィルターを設定していないと、役職を配ることができません。"
+
+# ロケット
+"role.rocketU.ability.title" : "固有能力 "ロケット発射！""
+"role.rocketU.ability.main" : "ロケットは#KILLプレイヤーをロケットにくくりつけて発射し、死体が発生しないキルをすることができます<br>一度に何人でもつかむことができますが、掴んでいる途中でも会議に入ることはできます。<br>発射した際には全員から大きな音が聞こえるので、キルのタイミングを把握されてしまいます。"
+"role.rocketU.ability.canKill" : ""
+"role.rocketU.ability.cantKill" : "<var>通常のキルができない</var>代わりに、"
+"role.rocketU.ability.hold" : "<b>掴む</b><br>プレイヤーを掴みます。二人目以降を掴む場合はクールタイムが変化します。"
+"role.rocketU.ability.launch" : "<b>発射</b><br>プレイヤーを発射します。掴んでいるプレイヤーが複数人の場合は全員を発射します。"
+"role.rocketU.tips" : "ロケットがプレイヤーをつかんだ状態で会議に入り、ロケットのプレイヤーが追放されなかった場合は<br>会議後につかまれているプレイヤーが死亡します"
+
+# ウォーロック
+"role.warlockU.ability.title" : "固有能力 "隷属の黒魔術""
+"role.warlockU.ability.main" : "ウォーロックは対象に「呪い」をかけることができます。呪われたプレイヤーは呪われていることを自覚できません。<br>ウォーロックが呪ったプレイヤーの近くに別のプレイヤーがいると呪殺ボタンが有効化され、<br>使用することで呪ったプレイヤーに近くのプレイヤーのキルを強制させることができます。<br><br>この能力は相方を#KILL"
+"role.warlockU.ability.canKillTeamPlayer" : "<var>巻き込みます</var>"
+"role.warlockU.ability.cantKillTeamPlayer" : "<var>巻き込みません</var>"
+"role.warlockU.ability.curse" : "<b>呪う</b><br>プレイヤーを呪います。一度に一人までしか呪うことができません。"
+"role.warlockU.tips" : "インポスターの相方などに能力を使用することで複数キルをとることができます。<br>また、マッドメイトなどに能力を使うことで代理でキルをさせることもできます。"
+
+# シノビ
+"role.xinobiU.ability.title" : "固有能力 "静寂の変化術""
+"role.xinobiU.ability.main" : "シノビは<b>変化の術</b>と<b>ベン遁の術</b>の二つの忍術を使用することが出来ます。<br>また、ベントにクールダウン・持続時間がある代わりに、全てのベントが接続されています。"
+"role.xinobiU.ability.possess" : "<b>変化</b><br>対象のオブジェクトに変化します。"
+"role.xinobiU.ability.vent" : "<b>ベン遁</b><br>一番近くのベントに遠隔で入ります。"
+"role.xinobiU.tips" : "一番近くのベントには矢印が表示されます。"
+
+# ニュートラル
+
+# 爆ぜ師
+"role.loversbreakerU.ability.title" : "固有能力 "恋の断罪""
+"role.loversbreakerU.ability.main" : "ラバーズを爆破します。爆破エフェクトが発生し、自身にのみSEが再生されます。"
+"role.loversbreakerU.ability.Exp" : "<b>爆破</b><br>ラバーズを爆破します。"
+"role.loversbreakerU.tips" : "・爆ぜ師はラバーズにアサインされません。"
+"document.tip.winCond.loversbreakerU.normal.title" : "特殊勝利"
+"document.tip.winCond.loversbreakerU.normal" : "ラバーズを一定回数爆破した時点で単独勝利します。"
+"document.tip.winCond.loversbreakerU.takeover.title" : "乗っ取り勝利"
+"document.tip.winCond.loversbreakerU.takeover" : "一定回数ラバーズを爆破した後生存して生き残ると勝利します。"
+
+# シード
+"role.seedU.ability.title" : "固有能力 "咲き始めのクローバー""
+"role.seedU.ability.main" : "シードは<b>共生</b>を使用したプレイヤーが勝利する時、追加勝利することが出来ます。<br>#GAUGE"
+"role.seedU.ability.left" : "ただし、シードゲージを一定量以上貯めていないと勝利できません。"
+"role.seedU.ability.noleft" : ""
+"role.seedU.ability.seedSkill" : "<b>共生</b><br>プレイヤーを共生対象にします。<br>共生対象には<color=#6ab2bd>▼</color>のマークが名前の横に表示されます。"
+"role.seedU.tips" : "非クルーがイレイサーに能力を消されると、この役職になります。"
+
+# マグロ
+"role.tunaU.ability.title" : "固有能力 "回遊""
+"role.tunaU.ability.main" : "マグロは自殺タイマーが0になると死亡してしまいます。<br>自殺タイマーは、自身が停止しているときに進行します。"
+"role.tunaU.ability.tunaGauge" : "<b>マグロゲージ</b><br>近くに他のプレイヤーがいることで、ゲージが溜まります。<br>自身が止まっている際中は、ゲージの上昇倍率が上がります。<br>ゲージをMAXになると勝利します。"
+"role.tunaU.tips" : "ベント内や、ジップラインなどで行動不能場合、自殺タイマーは進行しません。"
+"end.tunaU" : "マグロ勝利"
+"document.tip.winCond.tunaU.title" : "特殊勝利"
+"document.tip.winCond.tunaU" : "<b>マグロゲージ</b>がMAXになると勝利します。"
+
