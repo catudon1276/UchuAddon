@@ -1,0 +1,69 @@
+!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>UchuAddon — Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 必要に応じて CSS を追加 -->
+  <style>
+    body{font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; max-width:900px; margin:2rem auto; padding:0 1rem;}
+    header.site-header{margin-bottom:1rem;}
+    nav.breadcrumb{font-size:.9rem; margin-bottom:1rem;}
+    .meta{color:#666; font-size:.9rem; margin-bottom:1rem;}
+    article{line-height:1.7;}
+  </style>
+  <!-- ルートにあるスクリプトへの相対パス。配置場所に応じて ../ を増減してください -->
+  <script src="../header.js" defer></script>
+  <script src="../common.js" defer></script>
+  <script src="../document.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <!-- 必要なら header.js で動的に置き換えられます -->
+    <h1>UchuAddon</h1>
+  </header>
+
+  <nav class="breadcrumb">
+    <a href="../index.html">Wiki 一覧</a> / UchuAddon
+  </nav>
+
+  <section class="meta">
+    <!-- 任意: 日付やバージョン等 -->
+    <span>最終更新: 2026-01-09</span>
+    &nbsp;|&nbsp;
+    <span>バージョン: 1.0</span>
+  </section>
+
+  <article id="content">
+    <h2>UchuAddon — Home</h2>
+
+    <p>ここに UchuAddon の概要を書きます。機能説明、導入手順、注意点などを自由に記述してください。</p>
+
+    <h3>概要</h3>
+    <p>例: UchuAddon は Nebula に機能を追加するアドオンです。〜</p>
+
+    <h3>インストール</h3>
+    <ol>
+      <li>手順 1</li>
+      <li>手順 2</li>
+    </ol>
+
+    <h3>リンク</h3>
+    <ul>
+      <li><a href="UchuAddon-Usage.html">使い方</a></li>
+      <li><a href="UchuAddon-FAQ.html">FAQ</a></li>
+    </ul>
+  </article>
+
+  <footer style="margin-top:2rem;">
+    <a href="../index.html">← Wiki 一覧へ戻る</a>
+  </footer>
+
+  <!-- 必要ならページ固有スクリプト -->
+  <script>
+    // 例: document.js がページ一覧データを参照する場合は id を登録するコードをここに置くことも可能
+    // window.pageId = "UchuAddon-Home";
+    // window.pageTitle = "UchuAddon — Home";
+  </script>
+</body>
+</html>
