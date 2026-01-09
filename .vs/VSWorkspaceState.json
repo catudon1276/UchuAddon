@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\UchuAddon",
-    "\\UchuAddon\\Language",
-    "\\UchuAddon\\Language\\Japanese"
+    "\\UchuAddon\\Scripts",
+    "\\UchuAddon\\Scripts\\Core"
   ],
-  "SelectedNode": "\\UchuAddon\\Language\\Japanese\\Japanese.dat",
+  "SelectedNode": "\\UchuAddon\\Scripts\\Core\\PatchManager.cs",
   "PreviewInSolutionExplorer": false
 }
