@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Scripts",
-    "\\Scripts\\Role"
+    "\\UchuAddon",
+    "\\UchuAddon\\Language",
+    "\\UchuAddon\\Language\\Japanese"
   ],
+  "SelectedNode": "\\UchuAddon\\Language\\Japanese\\Japanese.dat",
   "PreviewInSolutionExplorer": false
 }

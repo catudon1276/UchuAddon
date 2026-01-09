@@ -62,17 +62,6 @@
 "options.role.djU.numOfFlash.detail" : "スキル使用時のフラッシュ回数を設定します。"
 "options.role.djU.djSkillRange" : "スクラッチ範囲"
 
-# オペレーター
-"role.operatorU.name" : "オペレーター"
-"role.operatorU.short" : "オペ"
-"role.operatorU.blurb" : "確実な一手"
-"options.role.operatorU.detail" : "オペレーターは会議時間を増加させるクルーメイトです。"
-"options.role.operatorU.numOfOperate" : "オペレート使用可能数"
-"options.role.operatorU.operateAddTime" : "増加会議時間"
-"options.role.operatorU.skipBan" : "オペレート時スキップ不可"
-"button.label.operatorU.operate" : "オペレート"
-"role.operatorU.hudText" : "残りオペレート回数"
-
 # ポラリス
 "role.polarisU.name" : "ポラリス"
 "role.polarisU.short" : "ポ"
@@ -152,6 +141,18 @@
 "options.role.nimrodU.detail" : "ニムロッドは自身が追放された時、会議中に指定したプレイヤーを<br>道連れすることが出来るクルーメイトです。<br>能力を使用しても追放されなかった場合、使用回数が減少します。"
 "options.role.nimrodU.numOfInvolve" : "道連れ試行最大回数"
 "options.role.nimrodU.maxLeftTimer" : "道連れ可能な最大残会議時間"
+"role.nimrodU.hudText" : "残り道連れ試行回数"
+
+# オペレーター
+"role.operatorU.name" : "オペレーター"
+"role.operatorU.short" : "オペ"
+"role.operatorU.blurb" : "確実な一手"
+"options.role.operatorU.detail" : "オペレーターは会議時間を増加させるクルーメイトです。"
+"options.role.operatorU.numOfOperate" : "オペレート使用可能数"
+"options.role.operatorU.operateAddTime" : "増加会議時間"
+"options.role.operatorU.skipBan" : "オペレート時スキップ不可"
+"button.label.operatorU.operate" : "オペレート"
+"role.operatorU.hudText" : "残りオペレート回数"
 
 # ガーディアン
 "role.guardianU.name" : "ガーディアン"
