@@ -340,6 +340,31 @@
 
 # ニュートラル
 
+# アリス
+"role.aliceU.name" : "アリス"
+"role.aliceU.short" : "アリ"
+"teams.aliceU" : "アリス"
+"role.aliceU.blurb" : "不思議な国に囚われて"
+"options.role.aliceU.detail" : "アリスはキルされると勝利するニュートラルです。"
+"options.role.aliceU.numOfWin" : "勝利までのキル数"
+"options.role.aliceU.canFixLight" : "停電を修理可能"
+"options.role.aliceU.canFixComms" : "通信障害を修理可能"
+"options.role.aliceU.extraWin" : "追加勝利"
+"role.aliceU.vent" : "ベント設定"
+"options.role.aliceU.group.echo" : "予感能力の設定"
+"options.role.aliceU.echoCooldown" : "予感クールダウン"
+"options.role.aliceU.echoRange" : "予感範囲"
+"options.role.aliceU.numOfEcho" : "予感使用可能回数"
+"options.role.aliceU.group.winKill" : "キルの設定"
+"options.role.aliceU.winForKill" : "勝利にキルが必要"
+"options.role.aliceU.killCooldown" : "キルクールダウン"
+"options.role.aliceU.numOfWinKill" : "必要キル数"
+"options.role.aliceU.KillVentPlayer" : "隠れているプレイヤーをキル可能"
+"options.role.aliceU.task" : "勝利にタスクが必要"
+"button.label.Premonition" : "予感"
+"end.aliceU" : "アリス勝利"
+"end.extra.aliceU" : "<color=#FFFFFF>+</color> アリス"
+
 # アムネシア
 "role.amnesiaU.name" : "アムネシア"
 "role.amnesiaU.short" : "ア"
@@ -451,6 +476,24 @@
 "role.revellerU.short" : " "
 "role.revellerU.generalBlurb" : "命のメッセージ"
 "options.role.revellerU.detail" : "リヴェラーは追放された時自身の役職を公開するモディファイアです。"
+
+# スケール
+"role.scaleU.name" : "スケール"
+"role.scaleU.short" : ""
+"role.scaleU.generalBlurb" : "スタイルの異常事態"
+"options.role.scaleU.detail" : "スケールは体の大きさが変わります"
+"options.role.scaleU.group.size" : "サイズ設定"
+"options.role.scaleU.scaleAction" : "サイズ設定方法"
+"options.role.scaleU.scaleAction.fixed" : "固定"
+"options.role.scaleU.scaleAction.random" : "ランダム"
+"options.role.scaleU.scaleAction.select" : "選出"
+"options.role.scaleU.sizeFixed" : "サイズ"
+"options.role.scaleU.sizeMax" : "最大サイズ"
+"options.role.scaleU.sizeMin" : "最小サイズ"
+"options.role.scaleU.sizeMeetingRandom" : "会議後に再抽選"
+"options.role.scaleU.numOfSelect" : "セレクト枠数"
+"options.role.scaleU.sizeSelect" : "選出枠"
+"options.role.scaleU.sizeMeetingSelect" : "会議後に再選出"
 
 # 狐憑き
 "role.spectrePossessionU.name" : "狐憑き"

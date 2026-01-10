@@ -3,8 +3,8 @@
     "",
     "\\UchuAddon",
     "\\UchuAddon\\Scripts",
-    "\\UchuAddon\\Scripts\\Core"
+    "\\UchuAddon\\Scripts\\Role"
   ],
-  "SelectedNode": "\\UchuAddon\\Scripts\\Core\\PatchManager.cs",
+  "SelectedNode": "\\UchuAddon\\Resources",
   "PreviewInSolutionExplorer": false
 }

@@ -50,13 +50,14 @@ public class UchuGameEnd
 {
     public static GameEnd TunaTeamWin = NebulaAPI.Preprocessor!.CreateEnd("tunaU", new Virial.Color(171, 245, 255), 32);
     //public static GameEnd BinahTeamWin = NebulaAPI.Preprocessor!.CreateEnd("binahU", new Virial.Color(44, 171, 78), 32);
-    //public static GameEnd AliceWin = NebulaAPI.Preprocessor!.CreateEnd("aliceU", new Virial.Color(255, 255, 15), 32);
+    public static GameEnd AliceWin = NebulaAPI.Preprocessor!.CreateEnd("aliceU", new Virial.Color(255, 255, 15), 32);
+    public static GameEnd ObolusWin = NebulaAPI.Preprocessor!.CreateEnd("aliceU", new Virial.Color(255, 255, 15), 35);
     public static GameEnd BaphometWin = NebulaAPI.Preprocessor!.CreateEnd("baphometU", new Virial.Color(72, 40, 153), 61);
     public static GameEnd LoversBreakerUTeamWin = NebulaAPI.Preprocessor!.CreateEnd("loversbreakerU", new Virial.Color(235, 0, 192), 65);
     public static GameEnd CrewmateChickenWin = NebulaAPI.Preprocessor!.CreateEnd("crewmate", new Virial.Color(255,255,255), 127);
 
     //public static ExtraWin BinahExtra = NebulaAPI.Preprocessor!.CreateExtraWin("binahU", new Virial.Color(44, 171, 78));
-
+    public static ExtraWin AliceExtra = NebulaAPI.Preprocessor!.CreateExtraWin("aliceU", new Virial.Color(255, 255, 15));
     static void Preprocess(NebulaPreprocessor preprocessor)
     {
         RegisterWinCondTip(TunaTeamWin, () => GeneralConfigurations.NeutralSpawnable && (Scripts.Role.Neutral.TunaU.MyRole as ISpawnable).IsSpawnable, "tunaU");
