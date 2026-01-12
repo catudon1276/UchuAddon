@@ -36,6 +36,9 @@
 - **Town of Host K**（制作：KYMario）  
   一部役職アイデア・ロゴを使用
 
+- **Town of Us**（制作：slushiegoose）  
+  一部役職アイデア・ロゴを使用
+
 - **Town of Us-R**（制作：eDonnes124）  
   一部役職アイデア・ロゴを使用
 
