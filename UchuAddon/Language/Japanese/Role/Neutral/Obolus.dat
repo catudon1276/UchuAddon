@@ -25,6 +25,7 @@
 "options.role.obolusU.group.win" : "勝利拡張設定"
 "options.role.obolusU.jackalOptions" : "<color=#08bef5>ジャッカル</color>へのキルでも勝利可能"
 "options.role.obolusU.tyrantOptions" : "<color=#b98900>タイラント</color>へのキルでも勝利可能"
+"options.role.obolusU.obolusOptions" : "<color=#bd871a>オボルス</color>へのキルでも勝利可能"
 
 # Game
 

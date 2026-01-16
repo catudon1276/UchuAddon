@@ -1,0 +1,56 @@
+# Assignable
+
+"role.chickenU.name" : "チキン"
+"role.chickenU.short" : "チキ"
+"role.chickenU.blurb" : "あなたは臆病者"
+
+"role.chickenModifierU.name" : "チキン"
+"role.chickenModifierU.short" : "チキ"
+"role.chickenModifierU.generalBlurb" : "あなたは臆病者"
+
+# Document
+
+"role.chickenU.doc" : "とても臆病で貧弱なクルーメイトです。"
+"role.chickenU.ability.title" : "固有能力 "貧弱""
+"role.chickenU.ability.main" : "とても貧弱ですぐ死んでしまいますが、最後まで生存するとクルーメイトが乗っ取り勝利します。"
+"role.chicken.ability.Door" : "<title>挟圧死</title>ドアに指を挟み死んでしまいます。"
+"role.chicken.ability.Vent" : "<title>転倒死</title>ベントで足をつまづいて死んでしまいます。"
+"role.chicken.ability.Mess" : "<title>錯乱死</title>停電が一定時間続くと、錯乱し死んでしまいます。"
+"role.chicken.ability.Drop" : "<title>落下死</title>昇降機から落下し死んでしまいます。"
+"role.chicken.ability.Fall" : "<title>転落死</title>はしご・ジップラインから転落し死んでしまいます。"
+"role.chicken.ability.Wuss" : "<title>恐怖死</title>投票を<var>何票か</var>入れられると、狙われると思い込み死んでしまいます。"
+
+"role.chickenModifierU.doc" : "とても臆病で貧弱なモディファイアです。"
+
+# Options
+
+"options.role.chickenU.detail" : "チキンはとても貧弱なクルーメイトです。"
+"options.role.chickenU.deadPercentVent" : "ベント確率"
+"options.role.chickenU.deadPercentLadder" : "はしご確率"
+"options.role.chickenU.deadPercentZipLine" : "ジップライン確率"
+"options.role.chickenU.deadPercentPlatform" : "昇降機確率"
+"options.role.chickenU.deadPercentDoor" : "ドア確率"
+"options.role.chickenU.deadElectricSecond" : "死亡する停電経過時間"
+"options.role.chickenU.deadElectricSecond.detail" : "停電が何秒継続したら死亡するかを設定します。"
+"options.role.admiralU.deadNumOfVote" : "死亡する投票数"
+"options.role.chickenU.ventRange" : "転倒死の範囲"
+"options.role.chickenU.ventRange.detail" : "ベントでの死亡の範囲を設定します。"
+
+"options.role.chickenModifierU.detail" : "チキンはとても貧弱なモディファイアです。"
+
+# Game
+
+
+# UI
+
+
+# Stats
+
+"state.chickenDeadVent" : "転倒死"
+"state.chickenDeadFall" : "転落死"
+"state.chickenDeadDrop" : "落下死"
+"state.chickenDeadDoor" : "挟圧死"
+"state.chickenDeadWuss" : "錯乱死"
+"state.chickenDeadMess" : "恐怖死"
+
+# Titles

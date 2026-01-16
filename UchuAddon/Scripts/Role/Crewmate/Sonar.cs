@@ -107,6 +107,9 @@ public class SonarU : DefinedSingleAbilityRoleTemplate<SonarU.Ability>, DefinedR
         yield return new(AntennaDocument, "role.sonarU.ability.antenna");
         yield return new(AntennaDocumentBreak, "role.sonarU.ability.break");
     }
+    static internal Image IconImage = NebulaAPI.AddonAsset.GetResource("RoleIcon/Sonar.png")!.AsImage(100f)!;
+    Image? DefinedAssignable.IconImage => IconImage;
+
     public class Ability : AbstractPlayerUsurpableAbility, IPlayerAbility
     {  
         int leftPlace = NumOfPlace;
@@ -150,7 +153,7 @@ public class SonarU : DefinedSingleAbilityRoleTemplate<SonarU.Ability>, DefinedR
         {
             if (sonarAntennas.Count == 0) return;
             if (MeetingHud.Instance) return;
-            if (MyPlayer.IsDead) return;
+            if (MyPlayer.IsDead && ev.Dead != MyPlayer) return;
 
             Vector2 deadPos = ev.Dead.Position;
 
