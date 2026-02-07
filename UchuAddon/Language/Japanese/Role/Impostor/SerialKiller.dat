@@ -10,9 +10,9 @@
 
 # Options
 
-"options.role.serialkillerU.detail" : "シリアルキラーはキルクールダウンが早い代わりに、<br>一定時間キルをしないと自殺してしまうインポスターです。"
+"options.role.SerialKillerU.detail" : "シリアルキラーはキルクールダウンが早い代わりに、<br>一定時間キルをしないと自殺してしまうインポスターです。"
 "options.role.serialkillerU.SuicideCooldown" : "自殺までの秒数"
-"options.role.serialkillerU.killCooldown" : "シリアルキルクール"
+"options.role.serialkillerU.SerikillCooldown" : "シリアルキルクール"
 "options.role.serialkillerU.SeriSuicidebutton" : "自殺ボタンを有効にする"
 
 # Game

@@ -1,0 +1,22 @@
+﻿# Assignable
+
+"role.StarU.name" : "スター"
+"role.StarU.generalblurb" : "光る"
+
+# Document
+
+"role.StarU.doc" : "光ります。"
+
+# Options
+
+"options.role.StarU.detail" : "常に名前が光ります。"
+"options.role.StarU.RainbowStarOption" : "にじいろスターでのFPS数"
+"options.StarU.RainbowStar" : "にじいろスター"
+
+# Game
+
+# UI
+
+# Stats
+
+# Titles

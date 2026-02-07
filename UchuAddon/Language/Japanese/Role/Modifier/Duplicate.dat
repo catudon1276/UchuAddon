@@ -1,0 +1,21 @@
+﻿# Assignable
+
+"role.DuplicateU.name" : "デュプリケート"
+"role.DuplicateU.generalblurb" : "会議中票が増える。"
+
+# Document
+
+"role.DuplicateU.doc" : "会議中に設定した数だけの票が増える。"
+
+# Options
+
+"options.role.DuplicateU.detail" : "会議中票が増える。"
+"options.role.DuplicateU.VoteCount" : "何票増えるか"
+
+# Game
+
+# UI
+
+# Stats
+
+# Titles

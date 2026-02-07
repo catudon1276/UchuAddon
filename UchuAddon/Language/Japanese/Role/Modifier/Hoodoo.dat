@@ -1,0 +1,22 @@
+﻿# Assignable
+
+"role.HoodooU.name" : "貧乏神"
+"role.HoodooU.generalblurb" : "運で票数が変わる。"
+
+# Document
+
+"role.HoodooU.doc" : "投票するときに運がいいと票数が増えます<br>運が悪いと減ります。"
+
+# Options
+
+"options.role.HoodooU.detail" : "票数が運で変わります。"
+"options.role.HoodooU.Vote" : "失敗したときの票数"
+"options.role.HoodooU.random" : "成功する確率"
+"options.role.HoodooU.YesVote" : "成功したときの票数"
+# Game
+
+# UI
+
+# Stats
+
+# Titles
