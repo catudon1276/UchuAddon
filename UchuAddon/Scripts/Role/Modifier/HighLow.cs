@@ -54,8 +54,8 @@ public class HighLowU : DefinedAllocatableModifierTemplate, DefinedAllocatableMo
     }
 
     static private IntegerConfiguration Vote = NebulaAPI.Configurations.Configuration("options.role.HighLowU.Vote", (0, 5), 0);
-    static private IntegerConfiguration Random = NebulaAPI.Configurations.Configuration("options.role.HighLowU.random", (0, 90), 50);
-    static private IntegerConfiguration YesVote = NebulaAPI.Configurations.Configuration("options.role.HighLowU.YesVote", (1, 5), 1);
+    static private IntegerConfiguration Random = NebulaAPI.Configurations.Configuration("options.role.HighLowU.random", (0, 100), 50);
+    static private IntegerConfiguration YesVote = NebulaAPI.Configurations.Configuration("options.role.HighLowU.YesVote", (1, 5), 2);
     static public HighLowU MyRole = new HighLowU();
     /*static internal Image IconImage = NebulaAPI.AddonAsset.GetResource("RoleIcon/Duplicate.png")!.AsImage(100f)!;*/
     /*Image? DefinedAssignable.IconImage => IconImage;*/
