@@ -50,6 +50,7 @@ public class HighLowU : DefinedAllocatableModifierTemplate, DefinedAllocatableMo
 {
     private HighLowU() : base("HighLowU", "HIG", new(194, 198, 110), [Vote, YesVote, Random])
     {
+        base.ConfigurationHolder!.Illustration = NebulaAPI.AddonAsset.GetResource("RoleImage/Uchu__20260208141609.png")!.AsImage(115f);
         ConfigurationHolder?.AddTags(AddonConfigurationTags.TagUchuAddon);
     }
 
